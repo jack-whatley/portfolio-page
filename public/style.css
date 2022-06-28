@@ -1,0 +1,77 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+    background: #292b2d;
+
+    max-height: 100vh;
+
+}
+
+body::-webkit-scrollbar {
+
+    width: 10px; 
+
+}
+
+body::-webkit-scrollbar-track {
+
+    background: #212529;
+
+}
+
+body::-webkit-scrollbar-thumb {
+
+    background-color: #292b2d;
+    border-radius: 20px;
+
+}
+
+div {
+
+    color: #ffffff;
+
+}
+
+.contents {
+
+    position: fixed;
+    top: 30%;
+    left: 15%;
+
+}
+
+.main {
+
+    width: 45vw;
+    padding: .5em 1em;
+    min-height: 5em;
+    height: max-content;
+    
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+}
+
+.body-text {
+
+    max-width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.title {
+
+    width: 80%;
+    text-align: left;
+
+}
