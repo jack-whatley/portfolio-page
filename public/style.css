@@ -113,3 +113,18 @@ div {
     color: white !important;
 
 }
+
+.card-link {
+
+    color: gray;
+    text-decoration: none;
+
+}
+
+.card-link:hover {
+
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+
+}

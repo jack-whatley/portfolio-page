@@ -15,4 +15,10 @@ app.get("/home", (req, res) => {
 
 });
 
+app.get("/projects/epq", (req, res) => {
+
+    res.sendFile(__dirname + "/src/epq/epq.html");
+
+});
+
 app.listen(5000);
