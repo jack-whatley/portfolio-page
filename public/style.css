@@ -84,9 +84,12 @@ div {
 
 .shape {
 
-    width: 10px;
-    height: 10px;
+    width: .5rem;
+    height: 1rem;
     background: white;
+
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
 
 }
 
