@@ -16,17 +16,11 @@
 
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <nav class="navbar navbar-dark bg-dark p-3">
             
             <div class="container-fluid">
               
                 <span class="navbar-brand ms-5 ps-5" href="#">Icon Here</span>
-              
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                
-                    <span class="navbar-toggler-icon"></span>
-              
-                </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     
@@ -51,10 +45,10 @@
 
                 <nav class="nav nav-pills flex-column">
 
-                    <a href="#item-1" class="nav-link">Item 1</a>
-                    <a href="#item-2" class="nav-link">Item 2</a>
-                    <a href="#item-3" class="nav-link">Item 3</a>
-                    <a href="#item-4" class="nav-link">Item 4</a>
+                    <a href="#item-1" class="nav-link"><div class="shape m-0"></div>Intro</a>
+                    <a href="#item-2" class="nav-link"><div class="shape m-0"></div>My Work</a>
+                    <a href="#item-3" class="nav-link"><div class="shape m-0"></div>Curriculum Vitae</a>
+                    <a href="#item-4" class="nav-link"><div class="shape m-0"></div>Contact Me</a>
 
                 </nav>
 
@@ -178,8 +172,28 @@
 
             <div class="element" id="item-3">
 
-                <h3 class="mt-5 title">CVs</h3>
-                <p class="body-text mb-5 me-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3 class="mt-5 title">Curriculum Vitae</h3>
+                <p class="body-text mb-5 me-0">Something about my cvs being here...</p>
+
+                <div class="cv-col">
+
+                    <a href="#" class="cv-download" data-bs-toggle="tooltip" data-bs-placement="right" title="Click me to download."><div class="cv-row">
+
+                        <div class="hr"></div>
+
+                        <div class="d-flex flex-row p-2">
+
+                            <p class="cv-name cv-text">Example CV Blah Blah</p>
+
+                            <p class="cv-size cv-text ms-auto">27.6mb</p>
+
+                        </div>    
+
+                        <div class="hr"></div>
+
+                    </div></a>
+
+                </div>
             
             </div>
 
@@ -193,6 +207,7 @@
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="public/index.js"></script>
 
     </body>
 
