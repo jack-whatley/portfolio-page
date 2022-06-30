@@ -11,8 +11,6 @@ body {
 
     background: #292b2d;
 
-    max-height: 100vh;
-
 }
 
 body::-webkit-scrollbar {
@@ -126,5 +124,11 @@ div {
     cursor: pointer;
     color: gray;
     text-decoration: underline;
+
+}
+
+.full-length {
+
+
 
 }
