@@ -21,4 +21,10 @@ app.get("/projects/epq", (req, res) => {
 
 });
 
+app.get("/projects/epq/model", (req, res) => {
+
+    res.sendFile(__dirname + "/src/epq/model.html")
+
+});
+
 app.listen(5000);
